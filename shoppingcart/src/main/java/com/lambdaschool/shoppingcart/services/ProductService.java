@@ -51,4 +51,6 @@ public interface ProductService
     Product update(
         long id,
         Product product);
+
+    public void deleteAll();
 }
